@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after{ margin: 0;
+}
+
+.container{ display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: rem;
+    margin-top: rem;
+ width: rem;
+ height: rem;}
+
+.img1{ width: 15rem;
+
+height: 15rem;
+border-radius: 2rem;
+position: absolute;
+ top: 18rem;
+left: 7rem;
+box-shadow: 10px 10px 10px;
+z-index: 2;}
+
+.img2{ width: 15rem;
+    height: 15rem;
+    border-radius: 2rem;
+ position: absolute;
+ top: 15rem;
+ left: 21rem;
+ box-shadow: 10px 10px 10px;
+ z-index: 3;}
+
+.img3{ width: 15rem;
+     height: 15rem;
+     border-radius: 2rem;
+    position: absolute;
+     top: 12rem;
+     left: 35rem;
+    box-shadow:10px 10px 10px ;
+     z-index: 5;}
+
+.img4{ width: 15rem;
+   height: 15rem;
+   border-radius: 2rem;
+ position: absolute;
+ top: 15rem;
+ right: 21rem;
+ box-shadow: 10px 10px 10px;
+ z-index: 4;}
+            
+.img5{ width: 15rem;
+  height: 15rem;
+  border-radius: 2rem;
+ position: absolute;
+ top: 18rem;
+ right: 7rem;
+ box-shadow: 10px 10px 10px;
+ z-index:1;
+ }            
+    
+body{ background-color: rgb(255, 178, 255);}
+
+marquee{ display: flex;
+  justify-content: center;
+  align-content: center;  
+  width: 90%; height: 25%;
+color:black;
+margin-top: 37rem;}
